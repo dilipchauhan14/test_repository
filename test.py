@@ -83,7 +83,7 @@ def get_requested_reviewers(requested_reviewers):
         output.append(user)
     return output
 
-
+#get the the user who merged the pr
 def get_merged_by(merged_by):
     if merged_by is None:
         return None
